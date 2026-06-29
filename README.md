@@ -6,7 +6,7 @@ A full-stack web application built to compare, benchmark, and analyze completion
 - **Frontend:** React.js, Vite, Tailwind CSS, Recharts (Charts/Analytics), Lucide-react (Icons)
 - **Backend:** Node.js, Express.js (ES Modules), Mongoose (MongoDB ORM)
 - **Database:** MongoDB
-- **Integrations:** OpenAI SDK, Google Generative AI SDK, Groq SDK
+- **Integrations:** Groq API (Llama 3.1 8B, Llama 3.3 70B, Llama 4 Scout, Qwen 3 32B)
 
 ---
 
@@ -28,8 +28,6 @@ A full-stack web application built to compare, benchmark, and analyze completion
    JWT_SECRET=llm-eval-secret-key-2026
 
    # AI Provider API Keys (Optional: if empty, Mock Mode will activate automatically)
-   OPENAI_API_KEY=your-openai-api-key
-   GEMINI_API_KEY=your-gemini-api-key
    GROQ_API_KEY=your-groq-api-key
    ```
    *Note: If API keys are left blank, the platform launches in a high-fidelity **Mock Mode**, simulating completions and judge grading without running up API costs!*
